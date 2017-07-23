@@ -1,0 +1,18 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: blog
+  datasource:
+    url: jdbc:mysql://localhost:3306/blogdb
+    username: bharatparmar
+    password: Parmar@
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    database-platform:  org.hibernate.dialect.MySQL5Dialect
+  oauth2:
+   client:
+    clientId: acd167f6-04f8-4306-a118-03e2356f73aa
+    secret: 2dd4bec5-fe62-4568-94a1-c31ac3c4eb4e
